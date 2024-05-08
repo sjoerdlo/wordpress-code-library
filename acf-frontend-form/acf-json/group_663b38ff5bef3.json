@@ -1,0 +1,51 @@
+{
+    "key": "group_663b38ff5bef3",
+    "title": "ACF Frontend Form",
+    "fields": [
+        {
+            "key": "field_663b38ff037b0",
+            "label": "Render as Form",
+            "name": "acf_frontend_forms",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "group_66154c717aac0": "Client Details",
+                "group_66153e18c7409": "Client Contact Persons"
+            },
+            "default_value": false,
+            "return_format": "array",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acf-frontend-form"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1715158039
+}

@@ -1,0 +1,24 @@
+{
+    "name": "acf/client-details",
+    "title": "Client Details",
+    "description": "A custom client details block that uses ACF fields.",
+    "viewStyle": [
+        "file:./client-details.css"
+    ],
+    "script": [
+        "file:./client-details.js"
+    ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": [
+        "client details"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "client-details.php"
+    },
+    "supports": {
+        "align": true,
+        "anchor": true
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "acf/acf-frontend-form",
+    "title": "ACF Frontend Form",
+    "description": "An ACF frontend form",
+    "viewStyle": [
+        "file:./acf-frontend-form.css"
+    ],
+    "script": [
+        "file:./acf-frontend-form.js"
+    ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": [
+        "acf frontend form"
+    ],
+    "acf": {
+        "mode": "edit",
+        "renderTemplate": "acf-frontend-form.php"
+    },
+    "supports": {
+        "align": true,
+        "anchor": true
+    }
+}
